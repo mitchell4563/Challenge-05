@@ -13,3 +13,13 @@ N/A
 - You can visit the weekday planner at https://mitchell4563.github.io/Weekday-Planner/
 
 <img src ="./assets/images/Weekday-Planner.png">
+
+- Once the page has loaded, you can type in any time block colored red or green. 
+
+- Grey = past
+
+- Red = Present
+
+- Green = Future
+
+- Clicking the save button to the right of the time block saves the event and it will stay there until deleted.
