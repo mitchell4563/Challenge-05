@@ -1,9 +1,13 @@
+// global variables, all for getting the date
 var today = new Date();
 var month = today.toLocaleString("default", { month: "long" });
 var day = today.toLocaleString("default", { day: "numeric" });
 var year = today.toLocaleString("default", { year: "numeric" });
 var currentDay = month + " " + day + "," + " " + year;
+
+// sets the current date to display using local machines time
 document.getElementById("currentDay").innerHTML = currentDay;
+
 // variable to store and loop through scheduler
 var myDay = [
     {
